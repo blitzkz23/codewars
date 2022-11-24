@@ -3,4 +3,4 @@ def sum_arrays(a):
     result = 0
     for num in a:
         result += num
-    return nums
+    return result

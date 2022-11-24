@@ -9,5 +9,5 @@ def digitize(n):
     return newArr
 
 # People's one liner solution
-def digitize(n):
+def digitize2(n):
     return map(int, str(n)[::-1])

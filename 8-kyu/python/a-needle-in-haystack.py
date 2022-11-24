@@ -5,5 +5,5 @@ def find_needle(haystack):
             return "found the needle at position {}".format(index)
         
 # People one liner solution
-def find_needle(haystack):
+def find_needle2(haystack):
     return 'found the needle at position {}'.format(haystack.index('needle'))
