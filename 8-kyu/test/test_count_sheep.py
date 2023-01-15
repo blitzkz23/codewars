@@ -2,11 +2,9 @@ import unittest
 from pythonlang.count_sheep import count_sheeps
 
 
-class TestCountSheep(unittest.TestCase):
-    def test_array_bool(self):
-        """"
-        Test that it can count number of sheep present in the array
-        """
+class TestFunc(unittest.TestCase):
+    def assertation_test(self):
+
         data = [True,  True,  True,  False,
                 True,  True,  True,  True,
                 True,  False, True,  False,
