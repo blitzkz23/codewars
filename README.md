@@ -1,5 +1,8 @@
 # Codewars
-yes
-yes
-yes
-nice
+
+## How to Run Unit Test
+
+'''
+    cd 8-kyu
+    python -m unittest test.filename.py
+'''
