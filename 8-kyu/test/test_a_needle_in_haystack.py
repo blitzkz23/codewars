@@ -3,7 +3,7 @@ from pythonlang.a_needle_in_haystack import find_needle
 
 
 class TestFunc(unittest.TestCase):
-    def assertation_test(self):
+    def test_find_needle(self):
 
         data = ["hay", "junk", "hay", "hay",
                 "moreJunk", "needle", "randomJunk"]

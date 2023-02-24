@@ -3,7 +3,7 @@ from pythonlang.count_sheep import count_sheeps
 
 
 class TestFunc(unittest.TestCase):
-    def assertation_test(self):
+    def test_count_sheeps(self):
 
         data = [True,  True,  True,  False,
                 True,  True,  True,  True,

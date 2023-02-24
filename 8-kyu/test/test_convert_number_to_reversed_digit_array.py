@@ -3,15 +3,14 @@ from pythonlang.convert_number_to_reversed_digit_array import digitize
 
 
 class TestFunc(unittest.TestCase):
-    def assertation_test(self):
-
+    def test_digitize(self):
         data = 3521
 
-        expectedResult = [1, 2, 3, 5]
+        expectedResult = [1, 2, 5, 3]
         result = digitize(data)
 
-        self.assertEqual(result, expectedResult)
-
+        self.assertEqual(expectedResult, result)
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(exit=False)
+    

@@ -3,7 +3,7 @@ from pythonlang.convert_boolean_to_string import boolean_to_string
 
 
 class TestFunc(unittest.TestCase):
-    def assertation_test(self):
+    def test_boolean_to_string(self):
 
         data = True
         data2 = False

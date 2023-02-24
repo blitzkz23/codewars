@@ -3,7 +3,7 @@ from pythonlang.convert_number_to_string import number_to_string
 
 
 class TestFunc(unittest.TestCase):
-    def assertation_test(self):
+    def test_number_to_string(self):
 
         data = 12345
 
