@@ -11,4 +11,4 @@ def open_or_senior(data):
 
 # people's one liner
 def open_or_senior2(data):
-  return ["Senior" if age >= 55 and handicap >= 8 else "Open" for (age, handicap) in data]
+    return ["Senior" if age >= 55 and handicap >= 8 else "Open" for (age, handicap) in data]
