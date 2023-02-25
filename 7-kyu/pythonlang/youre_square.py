@@ -2,9 +2,12 @@
 import math
 
 def is_square(n):    
-    sqrt_result = 0
     if n < 0:
         return False
     
     sqrt_result = math.sqrt(n)
     return sqrt_result.is_integer()
+
+# People one liner
+def is_square2(n):
+    return n > -1 and math.sqrt(n) % 1 == 0
