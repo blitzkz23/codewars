@@ -1,14 +1,13 @@
 import unittest
-from pythonlang.rock_paper_scissors import rps
+from pythonlang.are_you_playing_banjo import areYouPlayingBanjo
 
 class TestFunc(unittest.TestCase):
     def test_assertation(self):
 
-        p1 = 'rock'
-        p2 = 'paper'
-        expectedResult = 'Player 2 won!'
+        name = 'Aldy'
+        expectedResult = 'Aldy does not play banjo'
     
-        result = rps(p1, p2)
+        result = areYouPlayingBanjo(name)
         
         self.assertEqual(result, expectedResult)
 

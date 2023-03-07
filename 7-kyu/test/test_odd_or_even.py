@@ -1,14 +1,13 @@
 import unittest
-from pythonlang.rock_paper_scissors import rps
+from pythonlang.odd_or_even import odd_or_even
 
 class TestFunc(unittest.TestCase):
     def test_assertation(self):
 
-        p1 = 'rock'
-        p2 = 'paper'
-        expectedResult = 'Player 2 won!'
+        arr = [1023, 1, 2]
     
-        result = rps(p1, p2)
+        expectedResult = 'even'
+        result = odd_or_even(arr)
         
         self.assertEqual(result, expectedResult)
 
