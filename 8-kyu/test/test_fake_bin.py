@@ -1,14 +1,13 @@
 import unittest
-from pythonlang.the_feast_of_many_beast import feast
+from pythonlang.fake_bin import fake_bin
 
 class TestFunc(unittest.TestCase):
     def test_assertation(self):
 
-        beast = "great blue heron"
-        dish = "garlic naan"
-        expectedResult = True
+        input = '45385593107843568'
+        expectedResult = '01011110001100111'
     
-        result = feast(beast, dish)
+        result = fake_bin(input)
         
         self.assertEqual(result, expectedResult)
 
